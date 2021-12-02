@@ -1,6 +1,6 @@
+require 'bundler/setup'
 require 'minitest/autorun'
 require 'minitest/reporters'
-require 'bundler/setup'
 Minitest::Reporters.use!
 
 require_relative '../lib/todolist_project'
